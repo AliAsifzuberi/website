@@ -114,7 +114,7 @@ export function ExperienceSection() {
             <span className="text-accent">/&gt;</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty font-mono">
-            // Recent roles and impact
+            {"// Recent roles and impact"}
           </p>
         </div>
 

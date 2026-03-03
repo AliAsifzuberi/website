@@ -92,7 +92,7 @@ export function SkillsSection() {
             <span className="text-accent">/&gt;</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty font-mono">
-            // Technical expertise across the full development stack
+            {"// Technical expertise across the full development stack"}
           </p>
         </div>
 
@@ -148,7 +148,7 @@ export function SkillsSection() {
 
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-bold mb-8 font-mono">
-            <span className="text-accent">// </span>
+            <span className="text-accent">{"// "}</span>
             Additional Technologies
           </h3>
           <div className="flex flex-wrap justify-center gap-3">

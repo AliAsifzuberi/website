@@ -1,10 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
 
 export function AboutSection() {
-  const interests = [
-  ]
-
   return (
     <section id="about" className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
@@ -49,7 +45,6 @@ export function AboutSection() {
               </CardContent>
             </Card>
 
-            
           </div>
         </div>
       </div>

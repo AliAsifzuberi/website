@@ -86,9 +86,11 @@ export function HeroSection() {
             <Linkedin className="w-6 h-6" />
           </Button>
       </a>
-          <Button variant="ghost" size="icon" className="hover:text-primary">
-            <Mail className="w-6 h-6" />
-          </Button>
+          <a href="mailto:zube4400@mylaurier.ca">
+            <Button variant="ghost" size="icon" className="hover:text-primary">
+              <Mail className="w-6 h-6" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>

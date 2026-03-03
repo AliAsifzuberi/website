@@ -4,6 +4,7 @@ import { ExperienceSection } from "@/components/experience-section"
 import { SkillsSection } from "@/components/skills-section"
 import { CertificationSection } from "@/components/certification-section"
 import { AboutSection } from "@/components/about-section"
+import { ContactSection } from "@/components/contact-section"
 import { Navigation } from "@/components/navigation"
 import { fetchPortfolioRepos } from "@/lib/github"
 
@@ -19,6 +20,7 @@ export default async function Home() {
       <SkillsSection />
       <CertificationSection />
       <AboutSection />
+      <ContactSection />
     </main>
   )
 }
